@@ -1,0 +1,38 @@
+body {
+    background-color: #006666;
+    padding: 30px;
+    color: aliceblue;
+}
+
+.avatar img{
+    border-radius: 100%;
+    box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
+}
+.name {
+    font-style: oblique;
+    font-size: x-large;
+    
+}
+.button {
+    margin-top: 35px;
+    background-color: white;
+    border: 0px;
+    width: 310px;
+    padding: 18px 0 18px 0;
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    transition-duration: 1.2s;
+    transition-property: color;
+    box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+.button:hover{
+    color: white;
+    background-color: black;
+}
