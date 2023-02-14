@@ -1,38 +1,85 @@
-body {
-    background-color: #006666;
-    padding: 30px;
-    color: aliceblue;
+h1{
+    color: red;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(https://img.lovepik.com//back_pic/05/82/04/545c3dedbb788a0.jpg_wh860.jpg);
+    background-size: cover;
+}
+main{
+    display: flex;
 }
 
-.avatar img{
+div{
+    width: 50%;
+}
+img{
+    margin-top: 15px;
+    width: 90px;
+    height: 90px;
+    margin-left: 15px;
+}
+header{
+    margin-top: 0.5cm;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header > img {
+    width: 4cm;
+    height: 4cm;
     border-radius: 100%;
-    box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
-    -moz-box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
+    border: 2px solid #fff;
+    box-shadow: yellow 0px 2px 8px 0px;
 }
-.name {
-    font-style: oblique;
-    font-size: x-large;
-    
+header > h1{
+    display: inline-block;
+    font-size: 1cm;
+    font-weight: 400;
+    border-radius: 2cm;
+    background-color: #00FFFF;
+    color: #6F1E51;
+    padding: 10px 15px;
+    border: 2px solid #fff;
 }
-.button {
-    margin-top: 35px;
-    background-color: white;
-    border: 0px;
-    width: 310px;
-    padding: 18px 0 18px 0;
-    border-radius: 100px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    transition-duration: 1.2s;
-    transition-property: color;
-    box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
-    -moz-box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
-    cursor: pointer;
+ul{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 2cm;
 }
-.button:hover{
-    color: white;
-    background-color: black;
+ul > li {
+    background-color: #00FFFF;
+    border-radius: 1,5cm;
+    padding: 0.5cm;
+    margin: 1cm 0;
+    align-items: center;
+    display: flex;
+    display: inline-block;
+}
+ul > li > a {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    gap: 0cm;
+}
+a{
+    color: purple;
+    text-decoration: none;
+    font-size:  20px;
+    padding-top: 5px;
+    align-items: center;
+}
+ul{
+    text-align: center;
+    padding: auto;
+}
+p{
+    text-align: center;
+    color: #0fff;
 }
