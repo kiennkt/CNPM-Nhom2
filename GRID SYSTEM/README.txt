@@ -25,4 +25,4 @@ Chia cái grid thành 12 cột ( từ 1 đến 12, dựa vào 12 cột này đ�
 - class no-gutter để xóa gutter giữa các column
 
 MADE BY :  Thắng Ngô
-INSPIRE BY : F8
+INSPIRED BY : F8
