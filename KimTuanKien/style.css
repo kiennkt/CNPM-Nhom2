@@ -8,7 +8,7 @@ p {
 h2 {
     margin-inline-start: 20px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 h2:hover {
     color: #fff;
@@ -20,13 +20,14 @@ h2:hover {
 
 .box {
     box-shadow: 5px 5px 30px -10px rgba(0,0,0,0.75);
-    border-radius: 25px;
-    background-color: beige;
+    border-radius: 15px;
+    background-color: honeydew;
 }
 .container {
     margin: 20px 70px 20px 70px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /*Tối thiểu 200px, tối đa 1fr, repeat: lặp lại bn lần, kết hợp với autofit sẽ k cố định bao nhiêu lần*/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-areas: 
     "aa bb"
     "aa cc"
@@ -35,7 +36,7 @@ h2:hover {
     row-gap: 10px;
 }
 .avatar img{
-    border-radius: 35%;
+    border-radius: 30%;
     -webkit-mask-image: url(images/mask-image.png);
     mask-image: url(images/mask-image.png);
     -webkit-mask-repeat: no-repeat;
@@ -70,7 +71,7 @@ h2:hover {
 }
 button:hover {
     color: #fff;
-    text-shadow: 0 0 5px blue,
+    text-shadow: 0 0 5px #03e9f4,
     0 0 25px #03e9f4,
     0 0 50px #03e9f4,
     0 0 100px #03e9f4;
@@ -78,7 +79,9 @@ button:hover {
 
 @media(max-width: 800px){
     .avatar img{
-        width: 230px;
+        width: 80%;
+        -webkit-mask-size: 350px 350px;
+        mask-size: 350px 350px;
     }
     .container {
         margin: 10px 10px 10px 10px;
