@@ -19,6 +19,7 @@ html{
     font-size: 62.5%;
     line-height: 1.6rem;
 }
+/* Variable */
 :root{
     --card-height: 635px;
     --card-width: 955px;
@@ -48,6 +49,7 @@ html{
 .card-outside:hover {
     transform: scale(0.99);
     border-radius: 20px;
+
 }
 
 .card:hover {
