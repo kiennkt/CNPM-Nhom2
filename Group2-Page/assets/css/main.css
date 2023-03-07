@@ -1,0 +1,152 @@
+header{
+    padding-top: 80px;
+}
+
+.header__wrapper{
+    display: flex;
+    position: relative;
+    animation: slideIn linear 0.5s;
+}
+
+.box{
+    height: 50px;
+    width: 100px;
+    background-color: var(--white-color);
+}
+
+.title {
+    color: var(--white-color);
+    font-size: 5rem;
+    line-height: 5rem;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.member__container{
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.member__item{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    position: relative;
+    z-index: 2;
+}
+
+.member__img{
+    width: var(--img-size);
+    height: var(--img-size);
+    background-image: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 3px solid var(--white-color);
+    border-radius: 50%;
+}
+
+.member__name{
+    color: var(--white-color);
+    font-size:2rem;
+    font-style: italic;
+    line-height:2rem;
+    font-weight: 600;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+
+/* .member__wrapper:not(:hover){
+    opacity: 0.7;
+} */
+
+.member__item:hover {
+    scale: 1.1;
+    transform: translateY(-1px);
+}
+
+.member__item-wrapper:hover .member__info{
+    display: block;
+}
+
+.member__info{
+    background-color: var(--white-color);
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    height: 280px;
+    width: 320px;
+    border-radius: 10px;
+    display: none;
+    text-decoration: none;
+    color: var(--black-color);
+    z-index: 100;
+}
+
+.member__info::after{
+    content: "";
+    border-width: 20px 20px;
+    border-style: solid;
+    border-color: transparent var(--white-color) transparent transparent;
+    position: absolute;
+    top: 120px;
+    right: calc(100% - 4px);
+}
+
+.member__info.pos-1{
+    top: 200px;
+    right: 948px;
+}
+
+.member__info.pos-2{
+    top: 200px;
+    right: 642px
+}
+
+.member__info.pos-3{
+    top: 200px;
+    right: 336px;
+}
+
+.member__info.pos-4{
+    top: 200px;
+    right: 30px;
+}
+
+.member__info.pos-5{
+    top: 530px;
+    right: 796px;
+}
+
+.member__info.pos-6{
+    top: 530px;
+    right: 490px;
+}
+
+.member__info.pos-7{
+    top: 530px;
+    right: 184px;
+}
+
+
+.member__card{
+    padding:44px 30px;
+}
+
+.member__card-name{
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    margin: 0;
+}
+
+.member__card-team{
+    padding: 20px 0;
+}
+
+.member__card-info p{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    padding: 2px;
+}
+

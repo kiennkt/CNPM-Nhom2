@@ -1,0 +1,33 @@
+@media (max-width:1023px){
+    header{
+        padding-top: 50px;
+    }
+
+    .title{
+        margin: auto;
+        font-size: 4.5rem;
+    }
+
+    .grid.member__row2{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width:740px) and (max-width:1023px){
+    :root{
+        --img-size:150px;
+    }
+
+    .box{
+        display: none;
+    }
+}
+
+
+@media (max-width:739px){
+    .box{
+        display: none;
+    }
+}
