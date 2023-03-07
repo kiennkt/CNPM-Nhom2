@@ -1,0 +1,31 @@
+.profile {
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    border-bottom: 50px;
+}
+.card{
+    text-align: center;
+    font-family: Arial;
+    background-image: url('https://mega.com.vn/media/news/1907_khung-vien-ppt-dep7.jpg');
+    background-size: 100% 100%;
+    border-radius: 10px;
+    margin: auto;
+    border-top: 50px;
+ 
+}
+.main{
+    color:#000;
+    text-align: center;
+    font-family:'Calibri';
+    font-size: 20px;
+}
+.button {
+    cursor: pointer;
+    color: #000;
+    border-radius: 10%;
+    width: 30px;
+    border: 5px;
+}
